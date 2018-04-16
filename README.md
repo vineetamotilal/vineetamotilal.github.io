@@ -1,2 +1,2 @@
-# vineetamotilal.github.io
-Personal Blog
+Vineeta Motilal
+
