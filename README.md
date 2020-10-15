@@ -1,4 +1,11 @@
-Hi!
-Currently a graduate student pursuing Masters in Informatics and Communication from University of Delhi. 
 
-I am available on my twitter account @VineetaMotilal (shoot me  message!)
+
+
+Your next-door dev, NLP Researcher! 
+
+
+Currently a Software Developer(Software engineering + ML) in CDAC Noida.
+
+
+
+Let's catch up, maybe? https://www.linkedin.com/in/vineetamotilal/
