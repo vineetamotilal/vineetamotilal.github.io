@@ -9,24 +9,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
-            background-color: #0f172a;
-            color: #f1f5f9;
+            background-color: #f8fafc;
+            color: #1e293b;
         }
 
         .gradient-text {
-            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            background: linear-gradient(90deg, #2563eb, #0ea5e9);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .section-card {
-            background-color: #1e293b;
-            border: 1px solid #334155;
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
         }
 
         .skill-tag {
-            background-color: #334155;
-            border: 1px solid #475569;
+            background-color: #f0f9ff;
+            border: 1px solid #bae6fd;
+            color: #0369a1;
             border-radius: 6px;
             padding: 4px 12px;
             font-size: 0.85rem;
@@ -40,9 +42,9 @@
         <div class="flex flex-col md:flex-row justify-between items-start gap-8">
             <div class="flex-1">
                 <h1 class="text-5xl font-extrabold mb-4">Vineeta <span class="gradient-text">Motilal</span></h1>
-                <p class="text-xl text-slate-400 mb-6">Backend Software Engineer specializing in Generative AI & Machine
+                <p class="text-xl text-slate-600 mb-6">Backend Software Engineer specializing in Generative AI & Machine
                     Learning</p>
-                <div class="flex flex-wrap gap-4 text-sm text-slate-300">
+                <div class="flex flex-wrap gap-4 text-sm text-slate-500">
                     <span><i class="fas fa-envelope mr-2"></i>vineetamotilal@gmail.com</span> <span><i
                             class="fas fa-phone mr-2"></i>+91 858 689 1904</span> <span><i
                             class="fas fa-map-marker-alt mr-2"></i>Gurgram, Haryana, India</span>
@@ -50,8 +52,8 @@
             </div>
             <div class="flex gap-3">
                 <a href="https://linkedin.com/in/vineetamotilal" target="_blank"
-                    class="bg-slate-700 hover:bg-slate-600 p-3 rounded-lg transition"> <i
-                        class="fab fa-linkedin text-xl"></i>
+                    class="bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 p-3 rounded-lg transition shadow-sm">
+                    <i class="fab fa-linkedin text-xl"></i>
                 </a>
             </div>
         </div>
@@ -61,9 +63,9 @@
 
         <section>
             <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-                <span class="w-8 h-1 bg-sky-500 rounded-full"></span> Profile
+                <span class="w-8 h-1 bg-blue-500 rounded-full"></span> Profile
             </h2>
-            <p class="text-slate-300 text-lg leading-relaxed">
+            <p class="text-slate-600 text-lg leading-relaxed">
                 Backend Software Engineer with 6+ years of software development experience and specialized expertise in
                 Generative AI, Machine Learning, and enterprise-scale AI solutions. Strong foundation in Java and Python
                 with hands-on experience in LLMs, LangChain, and modern AI frameworks. MTech in Artificial Intelligence
@@ -74,11 +76,11 @@
 
         <section>
             <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
-                <span class="w-8 h-1 bg-sky-500 rounded-full"></span> Skill Matrix
+                <span class="w-8 h-1 bg-blue-500 rounded-full"></span> Skill Matrix
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="section-card p-6 rounded-xl">
-                    <h3 class="text-sky-400 font-bold mb-4 italic">AI & Machine Learning</h3>
+                    <h3 class="text-blue-600 font-bold mb-4 italic">AI & Machine Learning</h3>
                     <div class="flex flex-wrap gap-2">
                         <span class="skill-tag">LLMs</span> <span class="skill-tag">RAG</span>
                         <span class="skill-tag">Agentic AI</span> <span class="skill-tag">LangChain</span>
@@ -87,7 +89,7 @@
                     </div>
                 </div>
                 <div class="section-card p-6 rounded-xl">
-                    <h3 class="text-sky-400 font-bold mb-4 italic">Backend & Frameworks</h3>
+                    <h3 class="text-blue-600 font-bold mb-4 italic">Backend & Frameworks</h3>
                     <div class="flex flex-wrap gap-2">
                         <span class="skill-tag">Java 8/17</span> <span class="skill-tag">Python</span>
                         <span class="skill-tag">Spring Boot</span> <span class="skill-tag">Spring Security</span>
@@ -95,7 +97,7 @@
                     </div>
                 </div>
                 <div class="section-card p-6 rounded-xl">
-                    <h3 class="text-sky-400 font-bold mb-4 italic">Tools & Infrastructure</h3>
+                    <h3 class="text-blue-600 font-bold mb-4 italic">Tools & Infrastructure</h3>
                     <div class="flex flex-wrap gap-2">
                         <span class="skill-tag">Apache Airflow</span> <span class="skill-tag">Jenkins</span>
                         <span class="skill-tag">ChromaDB</span> <span class="skill-tag">PostgreSQL</span>
@@ -107,61 +109,69 @@
 
         <section>
             <h2 class="text-2xl font-bold mb-10 flex items-center gap-3">
-                <span class="w-8 h-1 bg-sky-500 rounded-full"></span> Experience
+                <span class="w-8 h-1 bg-blue-500 rounded-full"></span> Experience
             </h2>
             <div class="space-y-12">
 
                 <div>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                        <h3 class="text-xl font-bold text-sky-400">Senior Analyst</h3> <span
+                        <h3 class="text-xl font-bold text-blue-600">Senior Analyst</h3> <span
                             class="text-slate-500 font-mono">June 2024 - Present</span>
                     </div>
-                    <p class="text-slate-300 font-semibold mb-4 italic">National Australia Bank Innovation Centre India
+                    <p class="text-slate-700 font-semibold mb-4 italic">National Australia Bank Innovation Centre India
                     </p>
-                    <ul class="space-y-3 text-slate-400 list-disc ml-5">
+                    <ul class="space-y-3 text-slate-600 list-disc ml-5">
                         <li>Implemented a document intelligence solution for legal trust fund processing using
-                            **Retrieval-Augmented Generation (RAG)**, improving efficiency by **over 40%**[cite: 11,
-                            12].</li>
-                        <li>Built a hackathon-winning **Agentic AI** solution using LangChain, GPT-4, and ChromaDB to
-                            automate L1/L2 troubleshooting[cite: 13].</li>
-                        <li>Automated **70% of repetitive tasks**, saving **120 hours/month** (2 FTE equivalent) through
-                            integration with Airflow and Jira[cite: 14].</li>
-                        <li>Migrated enterprise backend systems from **Java 11 to Java 17** for enhanced security and
-                            performance[cite: 15].</li>
+                            <strong>Retrieval-Augmented Generation (RAG)</strong>, improving efficiency by <strong>over
+                                40%</strong>.
+                        </li>
+                        <li>Built a hackathon-winning <strong>Agentic AI</strong> solution using LangChain, GPT-4, and
+                            ChromaDB to
+                            automate L1/L2 troubleshooting.</li>
+                        <li>Automated <strong>70% of repetitive tasks</strong>, saving <strong>120 hours/month</strong>
+                            (2 FTE equivalent) through
+                            integration with Airflow and Jira.</li>
+                        <li>Migrated enterprise backend systems from <strong>Java 11 to Java 17</strong> for enhanced
+                            security and
+                            performance.</li>
                         <li>Designed batch processing pipelines using Python, SQL, and Apache Airflow deployed via
-                            Jenkins[cite: 16].</li>
+                            Jenkins.</li>
                     </ul>
                 </div>
 
                 <div>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                        <h3 class="text-xl font-bold text-sky-400">Senior Software Engineer</h3> <span
+                        <h3 class="text-xl font-bold text-blue-600">Senior Software Engineer</h3> <span
                             class="text-slate-500 font-mono">Oct 2021 - May 2024</span>
                     </div>
-                    <p class="text-slate-300 font-semibold mb-4 italic">Highwire powered by MPS Limited</p>
-                    <ul class="space-y-3 text-slate-400 list-disc ml-5">
-                        <li>Designed authentication features using domain-driven design in **microservices
-                            architecture**[cite: 20].</li>
-                        <li>Designed restful APIs using **OIDC**, increasing ease in login functionality by **over
-                            60%**[cite: 21].</li>
-                        <li>Conducted comprehensive testing using **Mockito/JUnit** and employed Hibernate for DB
-                            integration[cite: 22].</li>
+                    <p class="text-slate-700 font-semibold mb-4 italic">Highwire powered by MPS Limited</p>
+                    <ul class="space-y-3 text-slate-600 list-disc ml-5">
+                        <li>Designed authentication features using domain-driven design in <strong>microservices
+                                architecture</strong>.</li>
+                        <li>Designed restful APIs using <strong>OIDC</strong>, increasing ease in login functionality by
+                            <strong>over
+                                60%</strong>.
+                        </li>
+                        <li>Conducted comprehensive testing using <strong>Mockito/JUnit</strong> and employed Hibernate
+                            for DB
+                            integration.</li>
                     </ul>
                 </div>
 
                 <div>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                        <h3 class="text-xl font-bold text-sky-400">Software Engineer</h3> <span
+                        <h3 class="text-xl font-bold text-blue-600">Software Engineer</h3> <span
                             class="text-slate-500 font-mono">Dec 2019 - Oct 2021</span>
                     </div>
-                    <p class="text-slate-300 font-semibold mb-4 italic">Centre for Development of Advanced Computing
+                    <p class="text-slate-700 font-semibold mb-4 italic">Centre for Development of Advanced Computing
                         (CDAC)</p>
-                    <ul class="space-y-3 text-slate-400 list-disc ml-5">
-                        <li>Developed a **Handwritten Text Recognition** application using Random Forests with **90%
-                            accuracy**[cite: 26].</li>
-                        <li>Lead developer for a **JavaFx** Desktop Application enabling offline access to
-                            information[cite: 27].</li>
-                        <li>Developed REST and SOAP APIs for scalable data delivery[cite: 28].</li>
+                    <ul class="space-y-3 text-slate-600 list-disc ml-5">
+                        <li>Developed a <strong>Handwritten Text Recognition</strong> application using Random Forests
+                            with <strong>90%
+                                accuracy</strong>.</li>
+                        <li>Lead developer for a <strong>JavaFx</strong> Desktop Application enabling offline access to
+                            information.</li>
+                        <li>Developed REST and SOAP APIs for scalable data delivery.</li>
                     </ul>
                 </div>
             </div>
@@ -169,22 +179,22 @@
 
         <section>
             <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
-                <span class="w-8 h-1 bg-sky-500 rounded-full"></span> Education
+                <span class="w-8 h-1 bg-blue-500 rounded-full"></span> Education
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="section-card p-6 rounded-xl">
                     <h3 class="font-bold">IIT Jodhpur</h3>
-                    <p class="text-sky-400 text-sm mb-1">MTech Artificial Intelligence</p>
+                    <p class="text-blue-600 text-sm mb-1">MTech Artificial Intelligence</p>
                     <p class="text-slate-500 text-xs">Graduated 2023</p>
                 </div>
                 <div class="section-card p-6 rounded-xl">
                     <h3 class="font-bold">University of Delhi</h3>
-                    <p class="text-sky-400 text-sm mb-1">M.Sc. Informatics</p>
+                    <p class="text-blue-600 text-sm mb-1">M.Sc. Informatics</p>
                     <p class="text-slate-500 text-xs">Graduated 2018</p>
                 </div>
                 <div class="section-card p-6 rounded-xl">
                     <h3 class="font-bold">University of Delhi</h3>
-                    <p class="text-sky-400 text-sm mb-1">B.Sc. (Hons) Electronics</p>
+                    <p class="text-blue-600 text-sm mb-1">B.Sc. (Hons) Electronics</p>
                     <p class="text-slate-500 text-xs">Graduated 2015</p>
                 </div>
             </div>
@@ -192,7 +202,7 @@
 
     </main>
 
-    <footer class="text-center py-10 border-t border-slate-800 text-slate-500 text-sm">
+    <footer class="text-center py-10 border-t border-slate-200 text-slate-500 text-sm">
         &copy;Vineeta Motilal
     </footer>
 
